@@ -3,6 +3,7 @@
 
 require 'Calculator.php';
 
+use App\Math;
 use PHPUnit\Framework\TestCase;
 
 class CalculatorTest extends TestCase {
