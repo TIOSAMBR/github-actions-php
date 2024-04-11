@@ -10,8 +10,10 @@ class CalculatorTest extends TestCase {
         $calculator = new Calculator();
         $result = $calculator->add(2, 3);
         $result = $calculator->add(2, 8);
+        $result = $calculator->add(2, 10);
         $this->assertEquals(5, $result);
         $this->assertEquals(10, $result);
+        $this->assertEquals(13, $result);
     }
 }
 ?>
