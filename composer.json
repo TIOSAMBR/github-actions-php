@@ -1,10 +1,8 @@
 {
-  "name": "kennedytedesco/github-actions-php",
+  "name": "felipengaia/github-actions-php",
   "description": "Exemplo do uso de Github Actions para um projeto PHP",
   "license": "MIT",
   "require-dev": {
-    "nunomaduro/phpinsights": "^1.9",
-    "phpstan/phpstan": "^0.11",
     "phpunit/phpunit": "^8.0",
     "friendsofphp/php-cs-fixer": "^2.1"
   },
